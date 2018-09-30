@@ -1,0 +1,24 @@
+{
+  "development": {
+    "dialect": "postgres",
+    "url":"postgres://gfwqwhzcqppdbc:381d96f7a95f7a8a54c71c5e1208f67365246dc3c542de1d60a3aa9ff32259d5@ec2-54-217-205-90.eu-west-1.compute.amazonaws.com:5432/d23pb53cd84kqp",
+    "ssl": true,
+    "dialectOptions": {
+      "ssl": true
+    }
+  },
+  "test": {
+    "username": "root",
+    "password": null,
+    "database": "database_test",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "root",
+    "password": null,
+    "database": "database_production",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  }
+}
